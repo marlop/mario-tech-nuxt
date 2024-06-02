@@ -69,6 +69,14 @@ export default {
                         console.log('Error:', error.message);
                     }
                 });
+
+            this.clearData();
+        },
+        clearData() {
+            this.text1 = '';
+            this.text2 = '';
+            this.text3 = '';
+            this.copies = 1;
         }
     }
 };
