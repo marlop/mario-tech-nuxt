@@ -51,7 +51,7 @@ export default {
             console.log('Submitting data:', jsonData);
 
             // Post the JSON data to the endpoint
-            axios.post('https://print.mario.tech/Integration/PrintItemLabel/Execute', jsonData)
+            axios.post('https://bartender.mario.tech/Integration/PrintItemLabel/Execute', jsonData)
                 .then(response => {
                     console.log('Data posted successfully:', response.data);
                 })
