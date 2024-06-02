@@ -1,0 +1,16 @@
+**/node_modules/
+**/dist
+.git
+npm-debug.log
+.coverage
+.coverage.*
+.aws
+.output
+.nuxt
+.envkey
+.env.local
+.gitignore
+.prettierrc
+.vscode
+README.md
+``` 
